@@ -1,0 +1,6 @@
+.Navbar {
+    width: 100%;
+    background: linear-gradient(180deg, #1950B4 0%, rgba(43, 98, 198, 0) 92.95%);
+    border: 1px solid rgba(255, 255, 255, 0.19);
+    backdrop-filter: blur(6px);
+}
