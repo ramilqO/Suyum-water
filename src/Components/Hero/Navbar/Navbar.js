@@ -21,6 +21,7 @@ export default function Navbar() {
                 <p className="nav_item_text"><a href="#">Доставка</a></p>
             </div>
         </nav>
+        <button className="submit_btn">Быстрый заказ</button>
             </div>
             </div>
     )
