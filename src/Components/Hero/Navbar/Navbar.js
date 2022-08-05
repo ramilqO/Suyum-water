@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import "./adaptive.css";
 
 import logo from "../../../images/logo.svg";
 import navItem from "../../../images/nav_item1.svg";

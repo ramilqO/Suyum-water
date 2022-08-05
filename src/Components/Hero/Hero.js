@@ -1,4 +1,5 @@
 import "./Hero.css";
+import "./adaptive.css";
 
 import Navbar from "./Navbar/Navbar";
 

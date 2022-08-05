@@ -1,0 +1,17 @@
+@media screen and (max-width: 930px) {
+    .container {
+        padding: 5px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .submit_btn {
+        display: none;
+    }
+
+    .number {
+        display: none;
+    }
+}
