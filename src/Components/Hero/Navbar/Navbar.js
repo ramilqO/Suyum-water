@@ -3,7 +3,9 @@ import "./Navbar.css";
 import logo from "../../../images/logo.svg";
 import navItem from "../../../images/nav_item1.svg";
 import navItem2 from "../../../images/nav_item2.svg";
-
+import polygon from "../../../images/navbar_polygon.svg";
+import basket from "../../../images/basket.svg";
+import hamburger from "../../../images/hamburger.svg";
 
 export default function Navbar() {
     return(
@@ -24,8 +26,19 @@ export default function Navbar() {
             <a href="#" className="nav_item_text">Доставка</a>
             </div>
         </nav>
-        <button className="submit_btn">Быстрый заказ</button>
-            </div>
-            </div>
+
+        <div className="contacts">
+        <button className="submit_btn"><a className="button_a" href="#">Быстрый заказ</a></button>
+        <div className="number">
+            <p className="number_text">+7(916)171-27-67</p>
+            <img src={polygon}  className="polygon" />
+        </div>
+
+         <img className="basket" src={basket} /> {/*this is not a picture, you need to fix it */}
+         <img src={hamburger} />
+        </div>
+
+        </div>
+     </div>
     )
 }
