@@ -1,6 +1,5 @@
 @media screen and (max-width: 930px) {
     .Hero {
-        background-size: 100%;
-        background-repeat: no-repeat;
+        background-image: url("../../images/main_image_mobile.svg");
     }
 }

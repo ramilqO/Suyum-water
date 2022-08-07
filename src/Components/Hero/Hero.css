@@ -1,4 +1,9 @@
 .Hero {
-    height: 640px;
+    height: 900px;
     background-image: url("../../images/main_image.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #464646;
 }
