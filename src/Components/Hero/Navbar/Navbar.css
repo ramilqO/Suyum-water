@@ -29,10 +29,11 @@ nav {
     width: 170px;
     height: 50px;
     margin-right: 20px;
+    transition: 0.5s;
 }
 
 .submit_btn:hover {
-    transition: 0.5s;
+    
     background: rgba(11, 34, 75, 0.26);
     cursor: pointer;
 }
@@ -48,10 +49,10 @@ nav {
     font-size: 17px;
     line-height: 20px;
     margin-left: 7px;
+    transition: 0.5s;
 }
 
 .nav_item_text:hover {
-    transition: 0.5s;
     color: wheat
 }
 

@@ -7,3 +7,55 @@
     background-attachment: fixed;
     background-color: #464646;
 }
+
+.main_block {
+    padding-top: 150px
+}
+
+.title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 57px;
+    /* or 98% */
+
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+.subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* white */
+
+    color: #FFFFFF; 
+}
+
+.main_text_btn {
+    background: #10EBF8;
+    border-radius: 2px;
+    width: 250px;
+    height: 70px;
+    border: 0;
+    transition: 0.5s;
+}
+
+.main_text_btn:hover {
+    background: #88f9ff;
+    cursor: pointer;
+}
+
+.button_text {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #191919; 
+}
