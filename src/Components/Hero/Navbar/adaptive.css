@@ -14,4 +14,8 @@
     .number {
         display: none;
     }
+
+    .Navbar {
+        height: 100px
+    }
 }

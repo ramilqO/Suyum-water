@@ -1,5 +1,16 @@
 @media screen and (max-width: 930px) {
     .Hero {
         background-image: url("../../images/main_image_mobile.svg");
+        height: 900px;
+    }
+    
+    .title {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 28px;  
+    }
+
+    .main_block {
+        padding-top: 120px
     }
 }

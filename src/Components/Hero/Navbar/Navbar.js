@@ -7,6 +7,7 @@ import navItem2 from "../../../images/nav_item2.svg";
 import polygon from "../../../images/navbar_polygon.svg";
 import basket from "../../../images/basket.svg";
 import hamburger from "../../../images/hamburger.svg";
+import basketFrame from "../../../images/basket_frame.svg";
 
 export default function Navbar() {
     return(
@@ -35,8 +36,11 @@ export default function Navbar() {
             <img src={polygon}  className="polygon" />
         </div>
 
-         <img className="basket" src={basket} /> {/*this is not a picture, you need to fix it */}
-         <img src={hamburger} />
+        <div className="basket_group">
+        <img className="basket" src={basket} />
+        <img className="basket_frame" src={basketFrame} />
+         </div>
+         <img src={hamburger} className="hamburger_menu" />
         </div>
 
         </div>

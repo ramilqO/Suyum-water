@@ -96,3 +96,7 @@ nav {
 .basket {
     margin-right: 20px;
 }
+
+.basket_frame {
+    z-index: 10;
+}
