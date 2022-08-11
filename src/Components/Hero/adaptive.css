@@ -6,11 +6,16 @@
     
     .title {
         font-weight: 700;
-        font-size: 26px;
-        line-height: 28px;  
+        font-size: 36px;
+        line-height: 40px;  
     }
 
     .main_block {
-        padding-top: 120px
+        padding-top: 100px
+    }
+
+    .main_text_btn {
+        width: 140px;
+        border-radius: 2px;
     }
 }
