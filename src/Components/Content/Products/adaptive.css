@@ -1,0 +1,13 @@
+@media screen and (max-width: 915px) {
+    .Products {
+        display: block;
+    }
+
+    .mobile_image {
+        display: block;
+    }
+
+    .desktop_image {
+        display: none;
+    }
+}
